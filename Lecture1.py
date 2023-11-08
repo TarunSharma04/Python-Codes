@@ -1,0 +1,10 @@
+from PIL import Image
+img=Image.open("Anshu.jpg")
+Img.show()
+print(img.height)
+print(img.size)
+print(img.format)
+s=(554,200)
+img.thumbnail(s)
+img.show()
+img.rotate(100),show()
